@@ -3,7 +3,10 @@ pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https
 pip install torchcodec==0.6
 
 # can run: use_dataset_image_transforms.py/use_dataset_tools.py/...
-# can't run(unless run `pip install torchcodec==0.5`): load_lerobot_dataset.py
+
+# can run: load_lerobot_dataset.py
+pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1
+pip install torchcodec==0.5
 
 # run examples/tutorial/act/act_using_example.py
 pip install feetech-servo-sdk
