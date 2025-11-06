@@ -11,7 +11,7 @@ pip install torchcodec==0.6
 # run examples/tutorial/act/act_using_example.py
 pip install feetech-servo-sdk
 # or
-pip install 'lerobot[all]' #(will reinstall torch to 2.7.1..., not recommend)
+pip install 'lerobot[all]' #(will reinstall torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 torchcodec==0.5 numpy==2.x.x, not recommend)
 
 # run examples/so100_to_so100_EE/teleoperate.py
 # make sure placo is ok
