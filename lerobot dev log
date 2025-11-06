@@ -6,7 +6,7 @@ pip install torchcodec==0.6
 
 # can not run: load_lerobot_dataset.py
 # have error: RuntimeError: Could not push packet to decoder: Invalid data found when processing input
-# solution: change torch.utils.data.DataLoader parameter num_workers from 4 to 1
+# solution: change torch.utils.data.DataLoader parameter num_workers from 4 to 0 or 1
 
 # run examples/tutorial/act/act_using_example.py
 pip install feetech-servo-sdk
