@@ -13,7 +13,7 @@ pip install feetech-servo-sdk
 # or
 pip install 'lerobot[all]' # will reinstall torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 torchcodec==0.5 numpy==2.x.x, not recommend
 
-# run examples/so100_to_so100_EE/teleoperate.py
+# run examples/so100_to_so100_EE/teleoperate.py(this is a good example to understand placo-based kinematics)
 # make sure placo is ok
 pip install numpy==1.26.4
 export PYTHONPATH="/home/jay/workspace/placo/build/lib/python3.10/site-packages:$PYTHONPATH"
