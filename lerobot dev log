@@ -4,12 +4,14 @@ pip install torchcodec==0.6
 
 # can run: use_dataset_image_transforms.py/use_dataset_tools.py/...
 
-# can run: load_lerobot_dataset.py
-pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1
-pip install torchcodec==0.5
+# can not run: load_lerobot_dataset.py
+# have error: RuntimeError: Could not push packet to decoder: Invalid data found when processing input
+# solution: change torch.utils.data.DataLoader parameter num_workers from 4 to 1
 
 # run examples/tutorial/act/act_using_example.py
 pip install feetech-servo-sdk
+# or
+pip install 'lerobot[all]' #(will reinstall torch to 2.7.1..., not recommend)
 
 # run examples/so100_to_so100_EE/teleoperate.py
 # make sure placo is ok
